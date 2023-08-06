@@ -56,4 +56,43 @@ wk.register({
     },
     t = { "<cmd>Telescope harpoon marks<cr>", "Telescope Marks" },
   },
+  z = {
+    name = "Zettelkasten",
+    f = {
+      "<cmd>Telekasten find_notes<CR>",
+      "Find Notes",
+    },
+    g = {
+      "<cmd>Telekasten search_notes<CR>",
+      "Search Notes",
+    },
+    d = {
+      "<cmd>Telekasten goto_today<CR>",
+      "Daily Note",
+    },
+    z = {
+      "<cmd>Telekasten follow_link<CR>",
+      "Follow Link",
+    },
+    n = {
+      "<cmd>Telekasten new_note<CR>",
+      "New Note",
+    },
+    c = {
+      "<cmd>Telekasten show_calendar<CR>",
+      "Show Calendar",
+    },
+    b = {
+      "<cmd>Telekasten show_backlinks<CR>",
+      "Show Backlinks",
+    },
+    i = {
+      "<cmd>Telekasten insert_link<CR>",
+      "Insert Link",
+    },
+    I = {
+      "<cmd>Telekasten insert_img_link<CR>",
+      "Insert Image Link",
+    },
+  },
 }, { prefix = "<leader>" })
